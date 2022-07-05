@@ -12,11 +12,17 @@
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
     "graphql": "^16.5.0",
     "graphql-tag": "^2.12.6",
+    "postcss": "^8.4.14",
+    "react": "^18.2.0",
+    "sass": "^1.53.0",
     "vite-plugin-eslint": "^1.6.1",
     "vue": "^3.2.25",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.5",
@@ -45,8 +51,5 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "_moduleAliases": {
-    "@root": "./src"
   }
 }

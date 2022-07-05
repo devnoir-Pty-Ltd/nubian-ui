@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "baseUrl": ".",
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -14,7 +15,10 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "paths": {
-      "@root/*": ["./src/*"]
+      "@root/*": ["src/*"],
+      "@/*": [
+        "src/*"
+      ]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
